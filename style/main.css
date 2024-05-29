@@ -1,0 +1,215 @@
+
+body {
+	background-image: url(../images/bg.png);
+	margin: 5px 0px 0px 60px;
+	font-family: 'Inter', sans-serif;
+}
+
+.designation {
+	display: flex;
+	width: 145px;
+	padding: 10px;
+	margin-left: 314px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+a:hover {
+	color: #000;
+	font-weight: 700;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.elem {
+	width: 64px;
+	display: flex;
+	align-items: center;
+}
+
+.elem p {
+	font-size: 6px;
+}
+
+.elem-bg {
+	width: 20px;
+	height: 20px;
+	margin: 2px 2px 2px 0;
+}
+
+._alk-met {
+	background-color: #ff4343;
+}
+
+._alk-ear-met {
+	background-color: #ff7043;
+}
+
+._trans {
+	background-color: #ff8a00;
+}
+
+._metals {
+	background-color: #14ae5c;
+}
+
+._metall {
+	background-color: #1b99c1;
+}
+._nonmet {
+	background-color: #487bde;
+}
+
+._halo {
+	background-color: #6448ff;
+}
+
+._nobl {
+	background-color: #9328fe;
+}
+
+._lanth {
+	background-color: #699797;
+}
+
+._fs-5 {
+	font-size: 4px;
+	padding: 11px 0 12px 0;
+}
+
+._acti {
+	background-color: #976995;
+}
+
+.left-box {
+	width: 160px;
+	height: 456px;
+	padding: 15px;
+	border: 1px solid #5a5a59;
+	box-shadow: 4px 4px 5px -2px #5a5a59;
+}
+
+.left-box img:first-child {
+	height: 100%;
+	width: 100%;
+}
+
+.left-box p {
+	font-size: 7px;
+}
+
+.left-box h3 {
+	font-size: 14px;
+}
+
+.img-left-box {
+	width: 120px;
+	height: 42px;
+}
+
+.wrap {
+	display: flex;
+}
+
+.left-box h4 {
+	font-size: 12px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.left-box h5 {
+	font-size: 9px;
+	margin: 3px 0 3px 0;
+}
+
+.section {
+	margin: 7px 0 7px 0;
+}
+
+.y-box {
+	background-color: #ffc700;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 10px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+/* tables */
+.table {
+	margin-left: 20px;
+	position: relative;
+}
+
+table {
+	margin-left: 14px;
+	color: #fff;
+	box-shadow: 4px 4px 5px -2px #5a5a59;
+
+}
+
+table:first-child {
+	margin-bottom: 34px;
+}
+
+table:last-child {
+	margin-left: 165px;
+
+}
+
+td {
+	width: 46px;
+	height:46px;
+	margin: 5px;
+	text-align: center;
+}
+
+.number {
+	font-size: 4px;
+}
+
+.abbreviation {
+	font-size: 14px;
+	margin: 5px 0 5px 0;
+}
+
+.name {
+	font-size: 3px;
+}
+
+.wrap-foot {
+	margin-top: 16px;
+}
+
+._shadow {
+	box-shadow: 4px 2px 3px -2px #5a5a59;
+}
+
+.v-line, .g-line {
+	border-left: 2px solid #5a5a59;
+ 	border-bottom: 2px solid #5a5a59;
+ 	opacity: 0.5;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	bottom: 5%;
+	left: 15.2%;
+	z-index: -1;
+}
+
+.g-line {
+	border-left: 0;
+	bottom: 15%;
+	height: 1px;
+}
